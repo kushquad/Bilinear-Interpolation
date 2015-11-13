@@ -55,7 +55,7 @@ void setCustomColor(float val)
 	float blue = (val<=0.35)?(val/0.35):(0);
 	
 	//Cel-shading
-	glColor3f((int)(red*10)/10.0, (int)(green*10)/10.0, (int)(blue*10)/10.0);
+	glColor3f((int)(red*50)/50.0, (int)(green*50)/50.0, (int)(blue*50)/50.0);
 }
 
 
@@ -69,7 +69,7 @@ void setLinearColor(float val)
 	//Normal shading
 	//glColor3f(red,green,blue);
 	//Cel-shading
-	glColor3f((int)(red*10)/10.0, (int)(green*10)/10.0, (int)(blue*10)/10.0);
+	glColor3f((int)(red*50)/50.0, (int)(green*50)/50.0, (int)(blue*50)/50.0);
 }
 
 //Simple squared distribution of color
